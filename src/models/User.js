@@ -5,7 +5,7 @@ const modelSchema = new mongoose.Schema({
   name: String,
   email: String,
   state: String,
-  password: String,
+  passwordHash: String,
   token: String,
 });
 
